@@ -6,6 +6,8 @@ const VideoCard = ({ videoInfo }) => {
   const { video } = videoInfo;
 
   return (
+    // kullanıcı karta basarsa onu detay sayfası yönlendir
+    //  parametre olarak linke videonun idsini koy
     <Link to={`/watch/${video?.videoId}`}>
       <div className="cursor-pointer">
         <img
