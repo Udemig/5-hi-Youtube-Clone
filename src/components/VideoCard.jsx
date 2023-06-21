@@ -8,7 +8,7 @@ const VideoCard = ({ videoInfo }) => {
   return (
     // kullanıcı karta basarsa onu detay sayfası yönlendir
     //  parametre olarak linke videonun idsini koy
-    <Link to={`/watch/${video?.videoId}`}>
+    <Link className="w-full" to={`/watch/${video?.videoId}`}>
       <div className="cursor-pointer">
         <img
           className="w-full rounded my-4"
